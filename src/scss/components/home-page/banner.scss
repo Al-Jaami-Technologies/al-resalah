@@ -1,0 +1,18 @@
+.container-content {
+  width: 1000px;
+  margin: auto;
+  background-color: rebeccapurple;
+  display: flex;
+
+  .right-content {
+    color: red;
+
+    h1 {
+      margin: 3rem;
+    }
+  }
+
+  .left-content {
+    color: blue;
+  }
+}

@@ -2,3 +2,29 @@ $primary: #096843;
 $secondary: #81cb2d;
 $white: #ffffff;
 $warning: #f3cd02;
+
+/* ----------share-style---------- */
+
+.deep-green {
+  color: $primary;
+}
+
+.light-green {
+  color: $secondary;
+}
+
+.light-yellow {
+  color: #ffd700;
+}
+
+.white_bg {
+  color: rgba(239, 249, 229, 1);
+}
+
+.bg_deep-green {
+  background-color: $primary;
+}
+
+.bg_light-green {
+  background-color: $secondary;
+}

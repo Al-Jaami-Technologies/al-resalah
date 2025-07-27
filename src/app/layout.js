@@ -1,15 +1,23 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Roboto, Hind_Siliguri, Hind_Mysuru } from "next/font/google";
 import "./globals.css";
 import "../scss/main.scss";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const roboto = Roboto({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-roboto",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const hindSiliguri = Hind_Siliguri({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-hind-siliguri",
+});
+
+const hindMysuru = Hind_Mysuru({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-hind-mysuru",
 });
 
 export const metadata = {
@@ -21,7 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${roboto.variable} ${hindSiliguri.variable} ${hindMysuru.variable} antialiased`}
       >
         {children}
       </body>
