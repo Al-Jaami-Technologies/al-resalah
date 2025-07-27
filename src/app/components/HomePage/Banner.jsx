@@ -12,8 +12,10 @@ const Banner = () => {
           <p className="hind-siliguri-regular text-[1.5rem] mt-[36px] deep-green">
             "মাসে লাখো এসএমএস পাঠান? <br />
             আমাদের<span className="light-green"> Pay-As-You-Use</span> সিস্টেমে
-            কিনুন<span className="light-green"> ০.২০</span> টাকায়!"
+            কিনুন<span className="light-green"> ০.২০</span> টাকায়! git"
           </p>
+          
+          
           <ul className="hind-siliguri-regular text-[1.125rem] my-[18px] deep-green mt-[27px]">
             <li className="flex items-start space-x-2">
               <img
