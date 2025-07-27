@@ -12,7 +12,7 @@ const Banner = () => {
           <p className="hind-siliguri-regular text-[1.5rem] mt-[36px] deep-green">
             "মাসে লাখো এসএমএস পাঠান? <br />
             আমাদের<span className="light-green"> Pay-As-You-Use</span> সিস্টেমে
-            কিনুন<span className="light-green"> ০.২০</span> টাকায়! git"
+            কিনুন<span className="light-green"> ০.২০</span> টাকায়! git add"
           </p>
           
           
