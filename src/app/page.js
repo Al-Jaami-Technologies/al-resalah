@@ -15,7 +15,7 @@ const HomePage = () => {
       <According />
       <WhyUs />
       <Review />
-      {/* <Partner /> */}
+      <Partner />
       {/* <Blog /> */}
     </div>
   );
