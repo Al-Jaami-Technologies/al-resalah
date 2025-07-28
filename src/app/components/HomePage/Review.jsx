@@ -2,19 +2,36 @@ import React from "react";
 
 const Review = () => {
   return (
-    <section className="max-w-[1200px] m-auto">
-      <h1 className="text-[48px]">কেন আল রেসালাহ বাংলাদেশের <br /> সেরা এসএমএস গেটওয়ে?</h1>
+    <section className="max-w-[1200px] mx-auto px-4 py-10">
+  <h1 className="text-[32px] md:text-[48px] font-bold  mb-10 leading-snug">
+    কেন আল রেসালাহ বাংলাদেশের <br className="hidden md:block" />
+    সেরা এসএমএস গেটওয়ে?
+  </h1>
 
-      
-      <div className="flex justify-center">
-        <img src="/images/heroPage/reviewImg.svg" alt="" />
-        <img src="/images/heroPage/reviewImg2.svg" alt="" />
-        <img src="/images/heroPage/reviewImg.svg" alt="" />
-      </div>
+  <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+    {/* Left Image */}
+    <img
+      src="/images/heroPage/reviewImg.svg"
+      alt="Review 1"
+      className="w-full max-w-[300px] md:max-w-[250px] object-contain"
+    />
 
+    {/* Middle (slightly bigger on desktop) */}
+    <img
+      src="/images/heroPage/reviewImg2.svg"
+      alt="Review 2"
+      className="w-full max-w-[300px] md:max-w-[300px] object-contain"
+    />
 
+    {/* Right Image */}
+    <img
+      src="/images/heroPage/reviewImg.svg"
+      alt="Review 3"
+      className="w-full max-w-[300px] md:max-w-[250px] object-contain"
+    />
+  </div>
+</section>
 
-    </section>
   );
 };
 
