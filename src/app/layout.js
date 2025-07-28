@@ -1,6 +1,7 @@
 import { Roboto, Hind_Siliguri, Hind_Mysuru } from "next/font/google";
 import "./globals.css";
 import "../scss/main.scss";
+import Navbar from "./components/Shared/Navbar";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${roboto.variable} ${hindSiliguri.variable} ${hindMysuru.variable} antialiased`}
       >
+        <Navbar></Navbar>
         {children}
       </body>
     </html>

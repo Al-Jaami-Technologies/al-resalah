@@ -1,18 +1,7 @@
-.container-content {
-  width: 1000px;
-  margin: auto;
-  background-color: rebeccapurple;
-  display: flex;
-
-  .right-content {
-    color: red;
-
-    h1 {
-      margin: 3rem;
-    }
-  }
-
-  .left-content {
-    color: blue;
-  }
+.hero_sec{
+    background-image: url('/images/heroPage/heroBG.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
 }
