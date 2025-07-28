@@ -14,7 +14,7 @@ const HomePage = () => {
       <SmsBuy />
       <According />
       <WhyUs />
-      {/* <Review /> */}
+      <Review />
       {/* <Partner /> */}
       {/* <Blog /> */}
     </div>
