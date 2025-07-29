@@ -3,9 +3,9 @@ import React from "react";
 const Review = () => {
   return (
     <section className="max-w-[1200px] mx-auto px-4 py-10">
-  <h1 className="text-[32px] md:text-[48px] font-bold  mb-10 leading-snug">
-    কেন আল রেসালাহ বাংলাদেশের <br className="hidden md:block" />
-    সেরা এসএমএস গেটওয়ে?
+  <h1 className="text-[32px] md:text-[48px] font-bold  mb-10 leading-snug font-hind-siliguri deep-green ">
+    কেন <span className="light-green">আল রেসালাহ</span> বাংলাদেশের <br className="hidden md:block" />
+    <span className="light-green">সেরা এসএমএস</span> গেটওয়ে?
   </h1>
 
   <div className="flex flex-col md:flex-row items-center justify-center gap-6">

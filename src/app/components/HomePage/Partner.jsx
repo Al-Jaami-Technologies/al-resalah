@@ -4,7 +4,7 @@ const Partner = () => {
   return (
     <section className="px-4 py-12">
   <div className="text-center mb-8">
-    <h1 className="text-[24px] md:text-[32px] font-semibold">
+    <h1 className="text-[28px] md:text-[22px] font-medium ">
       The world's best companies trust Stellar.
     </h1>
   </div>
@@ -38,12 +38,12 @@ const Partner = () => {
 </div>
 
 
-  <p className="text-center text-[16px] mb-6">
+  <p className="text-center text-[15px] mb-6 font-normal text-[#363D4F]">
     Stellar is used by over 55,000+ companies across the globe
   </p>
 
   <div className="text-center">
-    <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition-all duration-300 cursor-pointer">
+    <button className="bg_deep-green hover:bg-green-500 text-white px-6 py-3 rounded-full transition-all duration-300 cursor-pointer">
       Start your Stellar Journey
     </button>
   </div>

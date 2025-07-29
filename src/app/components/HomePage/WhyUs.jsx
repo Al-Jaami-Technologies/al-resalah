@@ -8,100 +8,104 @@ const WhyUs = () => {
 
     {/* Title */}
     <div className="w-full lg:w-1/3 text-center lg:text-left">
-      <h1 className="text-[30px] lg:text-[40px] font-bold leading-snug">
-        কেন আল রেসালাহ বাংলাদেশের <br className="hidden lg:block" />
-        সেরা এসএমএস গেটওয়ে?
+      <h1 className="text-[30px] lg:text-[40px] font-hind-siliguri font-bold leading-snug text-center deep-green">
+        কেন<span className="light-green"> আল রেসালাহ</span> বাংলাদেশের <br className="hidden lg:block" />
+        <span className="light-green">সেরা এসএমএস</span> গেটওয়ে?
       </h1>
     </div>
 
     {/* Middle Column */}
-    <div className="w-full lg:w-1/3 flex flex-col gap-6 px-0 lg:px-10">
-      
-      {/* Step 01 */}
-      <div className="flex items-start gap-4 border-b-2 pb-4">
-        <div className="w-[43px] h-[43px] border-2 border-green-800 rounded-full flex items-center justify-center text-green-800 text-sm font-semibold">
-          <p>01</p>
-        </div>
-        <div>
-          <h2 className="text-[20px] font-semibold">রেজিস্ট্রেশন করুন</h2>
-          <p className="text-[14px]">কী করবেন:</p>
-          <ul className="text-[14px] list-disc pl-5">
-            <li>১. www.alresalah.com এ যান</li>
-            <li>২. "নতুন অ্যাকাউন্ট খুলুন" বাটনে ক্লিক করুন</li>
-            <li>৩. তথ্য দিয়ে ফর্ম পূরণ করুন</li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Step 02 */}
-      <div className="flex items-start gap-4 border-b-2 pb-4">
-        <div className="w-[43px] h-[43px] border-2 border-green-800 rounded-full flex items-center justify-center text-green-800 text-sm font-semibold">
-          <p>02</p>
-        </div>
-        <div>
-          <h2 className="text-[20px] font-semibold">এসএমএস লিখুন</h2>
-          <p className="text-[14px]">কী করবেন:</p>
-          <ul className="text-[14px] list-disc pl-5">
-            <li>১. ড্যাশবোর্ডে "এসএমএস পাঠান" অপশনে ক্লিক করুন</li>
-            <li>২. রিসিপিয়েন্ট নম্বর, মেসেজ (বাংলা/ইংরেজি), এবং সেন্ডার আইডি লিখুন</li>
-            <li>৩. ফ্রি ক্রেডিট ব্যবহার করে পাঠিয়ে দিন!</li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Step 03 */}
-      <div className="flex items-start gap-4">
-        <div className="w-[43px] h-[43px] border-2 border-green-800 rounded-full flex items-center justify-center text-green-800 text-sm font-semibold">
-          <p>03</p>
-        </div>
-        <div>
-          <h2 className="text-[20px] font-semibold">রিচার্জ করুন</h2>
-          <p className="text-[14px]">কী করবেন:</p>
-          <ul className="text-[14px] list-disc pl-5">
-            <li>১. ড্যাশবোর্ডে "রিচার্জ" বাটনে ক্লিক করুন</li>
-            <li>২. যেকোনো অংক (১০ টাকা থেকে ১ লাখ টাকা) নির্বাচন করুন</li>
-            <li>৩. বিকাশ/নগদ/রকেট/ ব্যাংক ট্রান্সফার দিয়ে পেমেন্ট করুন</li>
-          </ul>
-        </div>
-      </div>
+<div className="w-full lg:w-1/3 flex flex-col  px-0 lg:pl-10 font-hind-siliguri deep-green">
+  
+  {/* Step 01 */}
+  <div className="flex items-center gap-4  border-[#096843] pt-4 pb-4 ">
+    <div className="w-[43px] h-[43px] min-w-[43px] border-2 border-[#81cb2d] rounded-full flex items-center justify-center text-[#006400] text-[20px] font-bold font-hind-siliguri">
+      <p>০১</p>
     </div>
-
-    {/* Right Column */}
-    <div className="w-full lg:w-1/3 border-t-2 lg:border-t-0 lg:border-l-2 border-gray-300 pt-6 lg:pt-0 lg:pl-6">
-      <div className="flex items-start gap-4 mb-4">
-        <div className="w-[43px] h-[43px] border-2 border-green-800 rounded-full flex items-center justify-center text-green-800 text-sm font-semibold">
-          <p>04</p>
-        </div>
-        <div>
-          <h2 className="text-[20px] font-semibold">পাঠিয়ে দিন!</h2>
-        </div>
-      </div>
-
-      {/* API */}
-      <div className="mb-5">
-        <p className="text-[16px] font-medium">১: এপিআই ইন্টিগ্রেশন</p>
-        <p className="text-[14px]">কী করবেন:</p>
-        <ul className="text-[14px] list-disc pl-5">
-          <li>ড্যাশবোর্ড থেকে API ডকুমেন্টেশন ডাউনলোড করুন (বাংলা গাইড সহ)</li>
-          <li>PHP, Python, বা Node.js কোড স্নিপেট কপি-পেস্ট করুন</li>
-          <li>১০ মিনিটে সেটআপ শেষ!</li>
-        </ul>
-      </div>
-
-      {/* Excel Upload */}
-      <div>
-        <p className="text-[16px] font-medium">২: এক্সেল আপলোড</p>
-        <p className="text-[14px]">কী করবেন:</p>
-        <ul className="text-[14px] list-disc pl-5">
-          <li>ড্যাশবোর্ডে "বাল্ক এসএমএস" অপশনে ক্লিক করুন</li>
-          <li>এক্সেল ফাইল আপলোড করুন (নম্বর + মেসেজ কলাম সহ)</li>
-          <li>১০০০+ এসএমএস এক ক্লিকে পাঠান!</li>
-        </ul>
-      </div>
+    <div>
+      <h2 className="text-[20px] font-hind-siliguri font-bold ">রেজিস্ট্রেশন করুন</h2>
+      <p className="text-[14px] font-hind-siliguri my-2">কী করবেন:</p>
+      <ul className="text-[14px] font-hind-siliguri list-none pl-0 py-1">
+        <li className="py-0.5"><strong>১.</strong> www.alresalah.com এ যান</li>
+        <li className="py-0.5"><strong>২.</strong> <strong> "নতুন অ্যাকাউন্ট খুলুন"</strong>  বাটনে ক্লিক করুন</li>
+        <li className="py-0.5"><strong>৩.</strong> তথ্য দিয়ে ফর্ম পূরণ করুন</li>
+      </ul>
     </div>
+  </div>
+
+  {/* Step 02 */}
+  <div className="flex items-center gap-4 border-t-2 border-[#096843] pt-4 pb-4">
+    <div className="w-[43px] h-[43px] min-w-[43px] border-2 border-[#81cb2d] rounded-full flex items-center justify-center text-[#006400] text-[20px] font-bold font-hind-siliguri">
+      <p>০২</p>
+    </div>
+    <div>
+      <h2 className="text-[20px] font-hind-siliguri font-bold">এসএমএস লিখুন</h2>
+      <p className="text-[14px] font-hind-siliguri my-2">কী করবেন:</p>
+      <ul className="text-[14px] list-none pl-0 font-hind-siliguri py-1">
+        <li className="py-0.5"><strong>১.</strong> ড্যাশবোর্ডে <strong>"এসএমএস পাঠান"</strong> অপশনে ক্লিক করুন</li>
+        <li className="py-0.5"><strong>২.</strong> রিসিপিয়েন্ট নম্বর, মেসেজ (বাংলা/ইংরেজি), এবং সেন্ডার আইডি লিখুন</li>
+        <li className="py-0.5"><strong>৩.</strong> <strong> ফ্রি ক্রেডিট ব্যবহার</strong> করে পাঠিয়ে দিন!</li>
+      </ul>
+    </div>
+  </div>
+
+  {/* Step 03 */}
+  <div className="flex items-center gap-4 border-t-2 border-[#096843] pt-4 pb-4">
+    <div className="w-[43px] h-[43px] min-w-[43px] border-2 border-[#81cb2d] rounded-full flex items-center justify-center text-[#006400] text-[20px] font-bold font-hind-siliguri">
+      <p>০৩</p>
+    </div>
+    <div>
+      <h2 className="text-[20px] font-hind-siliguri font-bold">রিচার্জ করুন</h2>
+      <p className="text-[14px] font-hind-siliguri my-2">কী করবেন:</p>
+      <ul className="text-[14px] list-none pl-0 font-hind-siliguri py-1">
+        <li className="py-0.5"><strong>১.</strong> ড্যাশবোর্ডে <strong>"রিচার্জ"</strong> বাটনে ক্লিক করুন</li>
+        <li className="py-0.5"><strong>২.</strong> <strong> যেকোনো অংক</strong> (১০ টাকা থেকে ১ লাখ টাকা) নির্বাচন করুন</li>
+        <li className="py-0.5"><strong>৩.</strong> <strong> বিকাশ/নগদ/রকেট/</strong> ব্যাংক ট্রান্সফার দিয়ে পেমেন্ট করুন</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{/* Right Column */}
+<div className="w-full lg:w-1/3 border-t-2 lg:border-t-0 lg:border-l-2 border-[#096843] pt-6 lg:pt-0 lg:pl-6 deep-green font-hind-siliguri h-150 items-center ">
+  <div className=" items-center gap-4 mb-4">
+    <div className="w-[43px] h-[43px] min-w-[43px] border-2 border-[#81cb2d] rounded-full flex items-center justify-center text-[#006400] text-[20px] font-bold font-hind-siliguri mb-5">
+      <p>০৪</p>
+    </div>
+    <div>
+      <h2 className="text-[20px] font-bold font-hind-siliguri">পাঠিয়ে দিন!</h2>
+    </div>
+  </div>
+
+  {/* API */}
+  <div className="mb-5">
+    <p className="font-bold font-hind-siliguri text-[16px]">১: এপিআই ইন্টিগ্রেশন</p>
+    <p className="text-[14px] font-hind-siliguri my-2">কী করবেন:</p>
+    <ul className="text-[14px] list-none pl-0 font-hind-siliguri py-1">
+      <li className="py-0.5"><strong>১.</strong> ড্যাশবোর্ড থেকে <strong>API ডকুমেন্টেশন
+    ডাউনলোড</strong> করুন (বাংলা গাইড সহ)।</li>
+      <li className="py-0.5"><strong>২.</strong> PHP, Python, বা Node.js কোড স্নিপেট
+    কপি-পেস্ট করুন।</li>
+      <li className="py-0.5"> <strong>৩. ১০ মিনিটে সেটআপ শেষ!</strong></li>
+    </ul>
+  </div>
+
+  {/* Excel Upload */}
+  <div>
+    <p className="text-[16px] font-hind-siliguri font-bold">২: এক্সেল আপলোড</p>
+    <p className="text-[14px] font-hind-siliguri my-2">কী করবেন:</p>
+    <ul className="text-[14px] list-none pl-0 font-hind-siliguri py-1">
+      <li className="py-0.5"><strong>১. </strong> ড্যাশবোর্ডে <strong> "বাল্ক এসএমএস"</strong> অপশনে ক্লিক করুন</li>
+      <li className="py-0.5"><strong>২.</strong> এক্সেল ফাইল আপলোড করুন (নম্বর + মেসেজ কলাম সহ)</li>
+      <li className="py-0.5"><strong>৩. ১০০০+</strong> এসএমএস এক ক্লিকে পাঠান!</li>
+    </ul>
+  </div>
+</div>
+
 
   </div>
 </section>
+
 
 
   );
