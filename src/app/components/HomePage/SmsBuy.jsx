@@ -24,19 +24,19 @@ const SmsBuy = () => {
               id="groupButtonsFixed"
               className="flex justify-center items-center mx-auto border border-green-800 rounded-[17px] font-medium text-xs sm:text-sm overflow-hidden w-full max-w-[581px]"
             >
-              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-white text-green-800 flex items-center justify-center rounded-l-[17px] cursor-pointer text-[10px] sm:text-[13px]">
+              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-white text-green-800 flex items-center justify-center rounded-l-[17px] cursor-pointer text-[10px] sm:text-[13px] hover:bg-green-700 hover:text-white transition-colors duration-200">
                 মার্কিং
               </button>
-              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-green-800 text-white flex items-center justify-center border-l border-white cursor-pointer text-[10px] sm:text-[13px]">
+              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-green-800 text-white flex items-center justify-center border-l border-white cursor-pointer text-[10px] sm:text-[13px] hover:bg-green-700 transition-colors duration-200">
                 নন-মার্কিং
               </button>
-              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-green-800 text-white flex items-center justify-center border-l border-white cursor-pointer text-[10px] sm:text-[13px]">
+              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-green-800 text-white flex items-center justify-center border-l border-white cursor-pointer text-[10px] sm:text-[13px] hover:bg-green-700 transition-colors duration-200">
                 ওটিপি
               </button>
-              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-green-800 text-white flex items-center justify-center border-l border-white cursor-pointer text-[10px] sm:text-[13px]">
+              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-green-800 text-white flex items-center justify-center border-l border-white cursor-pointer text-[10px] sm:text-[13px] hover:bg-green-700 transition-colors duration-200">
                 ট্রান্সক্রিপশন
               </button>
-              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-green-800 text-white flex items-center justify-center rounded-r-[17px] border-l border-white cursor-pointer text-[10px] sm:text-[13px]">
+              <button className="group-btn flex-1 max-w-[80px] sm:max-w-[116px] h-[30px] sm:h-[34px] bg-green-800 text-white flex items-center justify-center rounded-r-[17px] border-l border-white cursor-pointer text-[10px] sm:text-[13px] hover:bg-green-700 transition-colors duration-200">
                 প্রোমোশন
               </button>
             </div>
@@ -95,7 +95,12 @@ const SmsBuy = () => {
         </center>
 
         <center>
-          <button className="my-3 w-full max-w-[576px] h-[56px] sm:h-[64px] text-white rounded-[8px] mid_button hind-siliguri font-bold text-[20px] sm:text-[24px] mt-[20px] mb-[49px] cursor-pointer bg_deep-green">
+          <button
+            className="my-3 w-full max-w-[576px] px-4 py-3 text-white rounded-[8px] mid_button hind-siliguri font-bold text-[16px] sm:text-[20px] md:text-[24px] mt-[4] mb-[6] cursor-pointer bg_deep-green text-center leading-tight
+  transition-all duration-300 transform
+  hover:scale-105 hover:shadow-md
+  active:scale-95 active:shadow-inner"
+          >
             এখনই রিচার্জ করুন ও SMS পাঠানো শুরু করুন
           </button>
         </center>
