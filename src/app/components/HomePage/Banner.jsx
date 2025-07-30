@@ -91,7 +91,7 @@ const Banner = () => {
             <img
               src="/images/heroPage/yellow-plane.svg"
               alt=""
-              className="absolute top-[39px] right-[327px] w-[9px] h-[9px]"
+              className="absolute top-[110px] right-[436px] w-[9px] h-[9px]"
             />
             <img
               src="/images/heroPage/yellow-plane.svg"
@@ -128,17 +128,17 @@ const Banner = () => {
             <img
               src="/images/heroPage/gr-pln.svg"
               alt=""
-              className="absolute top-[10px] left-[73px] w-[8px] h-[8px]"
+              className="absolute top-[97px] left-[177px] w-[8px] h-[8px]"
             />
             <img
               src="/images/heroPage/gr-pln.svg"
               alt=""
-              className="absolute top-[31px] left-[89px] w-[8px] h-[8px]"
+              className="absolute top-[83px] left-[165px] w-[8px] h-[8px]"
             />
             <img
               src="/images/heroPage/gr-pln.svg"
               alt=""
-              className="absolute top-[-11px] left-[132px] w-[8px] h-[8px]"
+              className="absolute top-[60px] left-[226px] w-[8px] h-[8px]"
             />
             <img
               src="/images/heroPage/gr-pln.svg"
