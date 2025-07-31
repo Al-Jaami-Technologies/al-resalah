@@ -2,8 +2,8 @@ import React from "react";
 
 const Featureboard = () => {
   return (
-    <section className="my-[110px]">
-      <div className="max-w-[1200px] mx-auto overflow-hidden">
+    <section className="my-[110px] ">
+      <div className="max-w-[1200px] mx-auto overflow-x-auto">
         {/* Row 1: Header Row */}
         <div className="w-[1200px] h-[48px] flex">
           <div
