@@ -1,7 +1,7 @@
 import { Roboto, Hind_Siliguri, Hind_Mysuru } from "next/font/google";
 import "./globals.css";
 import "../scss/main.scss";
-import Navbar from "./components/Shared/Navbar";
+import Navbar from "../components/Shared/Navbar";
 
 const roboto = Roboto({
   subsets: ["latin"],
